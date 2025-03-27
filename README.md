@@ -10,7 +10,7 @@ This is my personal portfolio website, built to showcase my projects, skills, an
 - **Other:** Git, GitHub Pages (if deployed there)  
 
 ## 📷 Preview  
-![portfolio.png](#)
+![Portfolio Preview](portfolio.png)
 
 ## ⚡ Features  
 ✅ Fully responsive design  
