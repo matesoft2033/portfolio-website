@@ -36,7 +36,7 @@ To run the portfolio locally, follow these steps:
 ```sh
 git clone https://github.com/matesoft2033/portfolio-website.git  
 cd portfolio-website  
-open index.html  # Or run on a local server  
+open index.html   
 ```
 
 ## 🎯 Deployment  
