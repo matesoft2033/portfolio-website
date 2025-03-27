@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Portfolio of Mate Sitchinava, an aspiring Embedded Systems Developer with a passion for technology, coding, and electronics.">
+   <meta name="keywords" content="embedded systems, C++, frontend development, backend development, portfolio, Mate Sitchinava">
+   <title>Portfolio Website | Mate Sitchinava</title>
+   <link rel="stylesheet" href="style.css">
+   <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+   <header class="header">
+      <a href="#home" class="logo" id="logo-link">
+         Mate <span>Sitchinava</span>
+      </a>
+      <i class="bx bx-menu" id="menu-icon" aria-label="Toggle navigation menu"></i>
+   
+      <nav class="navbar">
+         <a href="#home">Home</a>
+         <a href="#about">About</a>
+         <a href="#services">Services</a>
+         <a href="#projects">Projects</a>
+         <a href="#contact">Contact</a>
+      </nav>
+      <audio id="clickSound" style="display: none;">
+         <source src="sound/audio.mp3" type="audio/mpeg">
+         Your browser does not support the audio element.
+      </audio>
+      <button class="gradient-btn">Contact Me</button>
+      <button id="soundToggle" style="font-size: 1.6rem; margin-left: 1rem;">Disable Sound</button>
+   </header>
+
+   <section class="home" id="home">
+      <div class="home-content">
+         <h1>Hi, It's <span>Mate</span></h1>
+         <h3>I'm an <span>Embedded Systems Developer</span></h3>
+         <p>I'm an aspiring Embedded Systems Developer with a passion for technology, coding, and electronics. I enjoy building and optimizing systems, working with circuits, and exploring the world of programming to create innovative solutions.</p>
+
+         <div class="social-icons">
+            <a href="https://github.com/matesoft2033">
+               <i class="bx bxl-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/matesoft/">
+               <i class="bx bxl-linkedin-square"></i>
+            </a>
+            <a href="https://www.instagram.com/sitchinava.m7/?next=%2F">
+               <i class="bx bxl-instagram-alt"></i>
+            </a>
+            <a href="https://x.com/MateSichin11635">
+               <i class="bx bxl-twitter"></i>
+            </a>
+         </div>
+
+         <div class="btn-group">
+            <a href="#" class="btn">Hire</a>
+            <a href="#contact" class="btn">Contact</a>
+         </div>
+      </div>
+
+      <div class="home-image">
+         <img src="img-1.png" alt="Profile image of Mate Sitchinava">
+      </div>
+   </section>
+
+   <section class="about" id="about">
+      <div class="about-img">
+         <img src="img-1.png" alt="Profile image of Mate Sitchinava">
+      </div>
+      <div class="about-content">
+         <h2>About <span>Me</span></h2>
+         <p>I'm a 15-year-old C++ and embedded systems developer with a passion for low-level programming, hardware integration, and backend development. I started with web development and expanded into C++, Python (Flask Django), and embedded systems, focusing on performance optimization and real-world problem-solving. I enjoy working on innovative projects, collaborating with others, and constantly learning new technologies. Let's build something amazing together!</p>
+         <a href="#" class="btn">Read More</a>
+      </div>
+   </section>
+
+   <section class="services" id="services">
+      <h2 class="heading">Services</h2>
+
+      <div class="services-container">
+         <div class="service-box">
+            <div class="service-info">
+               <i class='bx bxl-c-plus-plus'></i>
+               <h4>C++</h4>
+               <p>I have experience in C++ development and embedded systems, working on projects that involve hardware integration, real-time processing, and low-level programming. One of my key projects, EchoSense, was focused on ultrasonic distance measurement using C++ and Arduino. I've also worked with 7-segment displays, sensor-based automation, and custom serial communication protocols. My projects often involve optimizing performance, handling microcontroller interactions, and building efficient systems for real-world applications.</p>
+            </div>
+         </div>
+
+         <div class="service-box">
+            <div class="service-info">
+               <i class='bx bx-code'></i>
+               <h4>Frontend Development</h4>
+               <p>I have experience in frontend development, creating responsive and visually appealing websites using HTML, CSS, and Bootstrap. I've built projects like my portfolio website, an e-commerce platform for STEM products, and interactive UI components such as custom buttons, carousels, and form designs. My focus is on clean code, modern design principles, and smooth user experience, ensuring that my websites are both functional and aesthetically pleasing.</p>
+            </div>
+         </div>
+
+         <div class="service-box">
+            <div class="service-info">
+               <i class='bx bx-code-curly'></i>
+               <h4>Backend Development</h4>
+               <p>I have experience in backend development, primarily using Python with Flask to build dynamic and scalable web applications. I've worked on projects like my e-commerce platform, where I implemented user authentication, product management, and database integration using SQLite. I also developed APIs and backend logic to handle form submissions, data processing, and user interactions efficiently. My focus is on writing clean, maintainable code and optimizing performance for smooth functionality.</p>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section class="projects" id="projects">
+      <h2 class="heading">Projects</h2>
+
+      <div class="projects-box">
+         <div class="project-card">
+            <img src="project-1.jpg" alt="EchoSense project screenshot">
+            <h3>EchoSense</h3>
+            <p>A C++ and Arduino-based project focused on ultrasonic distance measurement. This project involved real-time processing, sensor integration, and custom serial communication protocols.</p>
+            <div class="btn">Review Project</div>
+         </div>
+
+         <div class="project-card">
+            <img src="project-2.png" alt="RGB LED Controller project screenshot">
+            <h3>RGB-LED-Controller</h3>
+            <p>The RGB LED Controller is an interactive Arduino project that lets users customize LED colors and brightness using serial input. It allows precise control over individual LED color values and the number of LEDs activated, making it perfect for decorative lighting and DIY projects.</p>
+            <div class="btn">Review Project</div>
+         </div>
+
+         <div class="project-card">
+            <img src="project-3.png" alt="CodeSphere project screenshot">
+            <h3>CodeSphere</h3>
+            <p>Your frontend project, CodeSphere, is an interactive programming course platform designed to teach coding fundamentals. It provides structured lessons, quizzes, and hands-on exercises, helping beginners learn programming efficiently. The platform features a clean UI, responsive design, and smooth navigation, making it user-friendly and accessible on different devices.</p>
+            <div class="btn">Review Project</div>
+         </div>
+
+         <div class="project-card">
+            <img src="project-4.png" alt="Pac-Man project screenshot">
+            <h3>Pac-Man</h3>
+            <p>A CSS-only recreation of the classic Pac-Man game, built using HTML & CSS. This project demonstrates creative use of CSS animations, keyframes, and grid layouts to replicate Pac-Man's movement and interactions without JavaScript.</p>
+            <div class="btn">Review Project</div>
+         </div>
+      </div>
+   </section>
+
+   <section class="contact" id="contact">
+      <h2 class="heading">
+         Contact <span>Me</span>
+      </h2>
+
+      <form action="#">
+         <div class="input-group">
+            <div class="input-box">
+               <label for="full-name" class="sr-only">Full Name</label>
+               <input type="text" id="full-name" placeholder="Full Name">
+               <label for="email" class="sr-only">Email</label>
+               <input type="email" id="email" placeholder="Email">
+            </div>
+            <div class="input-box">
+               <label for="phone-number" class="sr-only">Phone Number</label>
+               <input type="number" id="phone-number" placeholder="Phone Number">
+               <label for="subject" class="sr-only">Subject</label>
+               <input type="text" id="subject" placeholder="Subject">
+            </div>
+         </div>
+
+         <div class="input-group-2">
+            <label for="message" class="sr-only">Your Message</label>
+            <textarea name="message" id="message" placeholder="Your Message" cols="30" rows="10"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+         </div>
+      </form>
+   </section>
+
+   <footer class="footer">
+      <div class="social-icons">
+         <a href="https://github.com/matesoft2033">
+            <i class="bx bxl-github"></i>
+         </a>
+         <a href="https://www.linkedin.com/in/matesoft/">
+            <i class="bx bxl-linkedin-square"></i>
+         </a>
+         <a href="https://www.instagram.com/sitchinava.m7/?next=%2F">
+            <i class="bx bxl-instagram-alt"></i>
+         </a>
+         <a href="https://x.com/MateSichin11635">
+            <i class="bx bxl-twitter"></i>
+         </a>
+      </div>
+      <ul class="list">
+         <li>
+            <a href="#">FAQ</a>
+         </li>
+         <li>
+            <a href="#services">Services</a>
+         </li>
+         <li>
+            <a href="#about">About Me</a>
+         </li>
+         <li>
+            <a href="#projects">Projects</a>
+         </li>
+         <li>
+            <a href="#contact">Contact</a>
+         </li>
+      </ul>
+      <p class="copyright">
+         © Mate Sitchinava | All Rights Reserved
+      </p>
+   </footer>
+   <script src="script.js"></script>
+</body>
+</html>
