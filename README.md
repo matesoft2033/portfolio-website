@@ -1,6 +1,6 @@
 # Portfolio Website  
 
-🚀 **Live Demo**: [Your Portfolio Link Here](#)  
+🚀 **Live Demo**: [https://matesoft.netlify.app/](#)  
 
 ## 📌 Overview  
 This is my personal portfolio website, built to showcase my projects, skills, and experience. It features a clean, responsive design with smooth animations to provide a great user experience.  
@@ -40,8 +40,8 @@ open index.html  # Or run on a local server
 ```
 
 ## 🎯 Deployment  
-- Hosted using **GitHub Pages** / **Vercel** / **Netlify**  
-- Deployed at: `https://your-username.github.io/portfolio-website/`  
+- Hosted using **Netlify**  
+- Deployed at: `https://matesoft.netlify.app/`  
 
 ## 🤝 Contributing  
 If you'd like to improve this project, feel free to fork the repository, make changes, and submit a pull request.  
